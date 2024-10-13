@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from '../Assets/logo.png';
 import sign from '../Assets/sign.png';
 import {Link, NavLink, useLocation, useNavigate} from 'react-router-dom';
-import { IoSearchSharp } from 'react-icons/io5';
+import { BsSearch } from 'react-icons/bs';
 import {navigation} from '../Contents/navigation'
 
 
@@ -63,7 +63,7 @@ const Header = () => {
                 />
 
                 <button className='text-2xl text-white'>
-                <IoSearchSharp/>
+                <BsSearch/>
                 </button>
               </form>
 
